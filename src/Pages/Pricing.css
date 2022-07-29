@@ -1,0 +1,107 @@
+.pricing {
+    width: 80%;
+    margin: 70px auto;
+    padding: 20px 0px;
+    color: #424242;
+    text-align: center;
+  }
+  .pricing .box {
+    width: 100%;
+    padding: 60px 0px;
+    border-bottom: 1px solid #eee;
+  }
+  .pricing .box:last-child {
+    padding: 50px 0px;
+  }
+  .pricing .pricing-title {
+    font-size: 44px;
+    font-weight: 500;
+    margin: 0px;
+  }
+  .pricing .pricing-desc {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 15px 0px 50px 0px;
+  }
+  
+  .pricing .pricing-details-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .pricing .pricing-details {
+    width: 30%;
+  }
+  .pricing .pricing-image {
+    width: 75%;
+  }
+  .pricing .pricing-details h2 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .pricing .pricing-details p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px 0px;
+  }
+  .pricing .acc-open h2 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .pricing .acc-open p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px 0px;
+  }
+  
+  .pricing .acc-open .sign-up-btn {
+    background-color: #387ed1;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 10px 25px;
+    margin: 20px;
+  }
+  
+  .pricing .acc-open .info-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px 0px;
+  }
+  
+  .pricing .acc-open .info-container .left-box {
+    width: 45%;
+    text-align: left;
+  }
+  .pricing .acc-open .info-container .right-box {
+    text-align: left;
+    width: 45%;
+  }
+  
+  .pricing .acc-open .left-box h3 {
+    color: #387ed1;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 40px 0px;
+  }
+  .pricing .acc-open .left-box li {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin: 15px 0px;
+  }
+  .pricing .acc-open .right-box h3 {
+    color: #387ed1;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 40px;
+  }
+  
