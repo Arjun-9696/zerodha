@@ -1,0 +1,113 @@
+.home-1 {
+    width: 30%;
+  }
+  
+  .top-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+  }
+  
+  .home-heading {
+    font-size: 2em;
+    margin-block-end: 0.5em;
+    font-weight: 600;
+  }
+  
+  .home-description {
+    font-size: 1.2em;
+    margin-block-start: 0.5em;
+  }
+  
+  .home-button {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+    background-color: #387ed1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .home-button:hover {
+    background-color: black;
+  }
+  
+  .home-2 {
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .home-links {
+    color: #387ed1;
+    /* text-decoration: none; */
+  }
+  
+  .home-flexbox {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 17%;
+  }
+  
+  .home-3 {
+    width: 35%;
+  }
+  
+  .home-content {
+    font-size: 0.9em;
+    margin-left: 5px;
+    margin-right: 20px;
+  }
+  
+  .list-flex {
+    display: flex;
+  }
+  
+  .list-flex > ul {
+    font-size: 0.9em;
+  }
+  
+  .list-flex > ul > li {
+    margin-bottom: 10px;
+  }
+  
+  .press-logos {
+    width: 100%;
+  }
+  
+  .flex-div {
+    width: 40%;
+    margin-left: 5%;
+  }
+  
+  .pricing-flex {
+    display: flex;
+  }
+  
+  .price {
+    font-size: 2.5em;
+    font-weight: 500;
+  }
+  
+  .pricing-div {
+    width: 40%;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 20px;
+  }
+  
+  .home > a:visited {
+    text-decoration: none;
+    color: #387ed1;
+  }
+  
+  .home-width {
+    width: 40%;
+  }
+  
