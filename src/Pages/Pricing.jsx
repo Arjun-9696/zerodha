@@ -23,7 +23,7 @@ const Pricing = () => {
             </p>
           </div>
           <div className="pricing-details">
-            <img src="https://zerodha.com/static/images/pricing-eq.svg" className="pricing-image" alt="twenty" />
+            <img src="https://zerodha.com/static/images/other-trades.svg" className="pricing-image" alt="twenty" />
             <h2>Intraday and F&O trades</h2>
             <p>
               Flat Rs. 20 or 0.03% (whichever is lower) per executed order on
