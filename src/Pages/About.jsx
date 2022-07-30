@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import People from "./People";
-
+import { Box, Heading } from '@chakra-ui/react';
 const Head = styled.div`
   margin: 30px auto;
   & > h1 {
@@ -35,18 +35,20 @@ const Flexbox = styled.div`
 
 export default function About() {
   return (
-    <div>
-      
+    <Box paddingTop="100px">
       <Head>
-        <h1>We pioneered the discount broking model in India.</h1>
-        <h1>Now, we are breaking ground with our technology.</h1>
+        <Heading size="lg" fontWeight="400" textAlign="center">
+          We pioneered the discount broking model in India.
+        </Heading>
+        <Heading size="lg" fontWeight="400" textAlign="center">
+          Now, we are breaking ground with our technology.
+        </Heading>
       </Head>
-
       <Breakline />
 
       <Flexbox>
         <div>
-          <p>
+          <p style={{ justifyContent: 'center' }}>
             We kick-started operations on the 15th of August, 2010 with the goal
             of breaking all barriers that traders and investors face in India in
             terms of cost, support, and technology. We named the company
@@ -86,8 +88,7 @@ export default function About() {
           </p>
         </div>
       </Flexbox>
-
-      <People/>
-    </div>
+      <People />
+    </Box>
   );
 }

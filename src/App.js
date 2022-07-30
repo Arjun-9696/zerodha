@@ -1,24 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import AllRoutes from './Components/Routes/AllRoutes';
+import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h2>hello</h2>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar/>
+    <AllRoutes/>
+    <Footer/>
+    </>
   );
 }
 
