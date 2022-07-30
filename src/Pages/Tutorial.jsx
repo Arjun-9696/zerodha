@@ -30,14 +30,14 @@ const allLectures = [
     nextAlternative: null,
     timestampNotes: [
       {
-        text: 'Masai School is a new age school!',
+        text: 'All About Zerodha!',
         url: '',
         startTimestamp: 10,
         endTimestamp: 20,
       },
       {
-        text: 'Python is an famous programming language',
-        url: 'python.org',
+        text: '',
+        url: '',
         startTimestamp: 20,
         endTimestamp: 30,
       },
