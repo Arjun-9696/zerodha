@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import styled from 'styled-components';
 import Zerodha from '../../Images/logo.png';
-import { Box, Image, Heading, Button,useToast } from '@chakra-ui/react';
+import { Box, Image, Heading, Button, useToast } from '@chakra-ui/react';
 import { useDispatch, useSelector } from 'react-redux';
 import { logout } from '../../Redux/Auth/actions';
 const activeStyle = {
@@ -72,23 +72,22 @@ const Menu = styled.div`
   }
 `;
 
-
 const Navbar = () => {
-     let isAuth = useSelector((state) => state.AuthReducer.isAuth);
-     const toast = useToast();
-     const dispatch = useDispatch();
-     const logoutHandler = () => {
-       localStorage.removeItem('token');
-       dispatch(logout());
-       toast({
-         title: 'Log Out Successful 👋',
-         description: 'Visit again 🙏',
-         status: 'success',
-         duration: 3000,
-         isClosable: true,
-         position: 'top',
-       });
-     };
+  let isAuth = useSelector((state) => state.AuthReducer.isAuth);
+  const toast = useToast();
+  const dispatch = useDispatch();
+  const logoutHandler = () => {
+    localStorage.removeItem('token');
+    dispatch(logout());
+    toast({
+      title: 'Log Out Successful 👋',
+      description: 'Visit again 🙏',
+      status: 'success',
+      duration: 3000,
+      isClosable: true,
+      position: 'top',
+    });
+  };
   return (
     <div>
       <Nav>
@@ -105,7 +104,7 @@ const Navbar = () => {
               <InnerContent>About</InnerContent>
             </NavLink>
 
-            <NavLink style={style} activeStyle={activeStyle} to="/products">
+            <NavLink style={style} activeStyle={activeStyle} to="/">
               <InnerContent>Products</InnerContent>
             </NavLink>
 
@@ -113,7 +112,7 @@ const Navbar = () => {
               <InnerContent>Pricing</InnerContent>
             </NavLink>
 
-            <NavLink style={style} activeStyle={activeStyle} to="/support">
+            <NavLink style={style} activeStyle={activeStyle} to="/">
               <InnerContent>Support</InnerContent>
             </NavLink>
 
@@ -128,7 +127,6 @@ const Navbar = () => {
                 </NavLink>
               )}
             </Box>
-            
           </SecondFlex>
         </FlexBox>
       </Nav>
