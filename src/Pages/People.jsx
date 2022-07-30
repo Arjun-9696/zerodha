@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-
+import { Box, Heading } from '@chakra-ui/react';
 const Head = styled.div`
   margin: 30px;
   & > * {
@@ -66,20 +66,18 @@ const Right = styled.div`
 `;
 
 const People=() =>{
-
-
-
-
-
   return (
-    <>
+    <Box >
       <Head>
-        <h1>People</h1>
+        <Heading>People</Heading>
       </Head>
 
       <Flexbox>
         <Left>
-          <Limage src="https://zerodha.com/static/images/nithin-kamath.jpg" alt="nithin-kamath.jpg" />
+          <Limage
+            src="https://zerodha.com/static/images/nithin-kamath.jpg"
+            alt="nithin-kamath.jpg"
+          />
           <h3>Nithin Kamath</h3>
           <div>Founder, CEO</div>
         </Left>
@@ -91,92 +89,91 @@ const People=() =>{
             Zerodha has changed the landscape of the Indian broking industry.
           </p>
           <p>
-            He was named one of the “Top 10 Businessmen to Watch Out for in
-            2016 in India” by The Economic Times for pioneering and scaling
-            discount broking in India.
+            He was named one of the “Top 10 Businessmen to Watch Out for in 2016
+            in India” by The Economic Times for pioneering and scaling discount
+            broking in India.
           </p>
           <p>Playing basketball is his zen.</p>
           <p>
-            Connect on{" "}
-            <a href="https://nithinkamath.me/">Home</a>/{" "}
-            <a href="https://tradingqna.com/u/nithin/summary">TradingQnA</a> /{" "}
+            Connect on <a href="https://nithinkamath.me/">Home</a>/{' '}
+            <a href="https://tradingqna.com/u/nithin/summary">TradingQnA</a> /{' '}
             <a href="https://twitter.com/Nithin0dha">Twitter</a>
           </p>
         </Right>
       </Flexbox>
 
       <Team>
-        <SimageDiv
-        >
-          <Simage src="https://zerodha.com/static/images/Nikhil.jpg" alt="Nikhil" />
+        <SimageDiv>
+          <Simage
+            src="https://zerodha.com/static/images/Nikhil.jpg"
+            alt="Nikhil"
+          />
           <h3>Nikhil Kamath</h3>
           <div>{`Co-founder & CFO`}</div>
-          <div>
-          </div>
+          <div></div>
         </SimageDiv>
 
-        <SimageDiv
-          
-        >
-          <Simage src="https://zerodha.com/static/images/Kailash.jpg" alt="Nikhil.jpg" />
+        <SimageDiv>
+          <Simage
+            src="https://zerodha.com/static/images/Kailash.jpg"
+            alt="Nikhil.jpg"
+          />
           <h3>Dr. Kailash Nadh</h3>
           <div>{`CTO`}</div>
-          <div>
-          </div>
+          <div></div>
         </SimageDiv>
 
-        <SimageDiv
-        >
-          <Simage src="https://zerodha.com/static/images/Venu.jpg" alt="venu.jpg" />
+        <SimageDiv>
+          <Simage
+            src="https://zerodha.com/static/images/Venu.jpg"
+            alt="venu.jpg"
+          />
           <h3>Venu Madhav</h3>
           <div>COO</div>
-          <div>
-          </div>
+          <div></div>
         </SimageDiv>
 
-        <SimageDiv
-          
-        >
-          <Simage src="https://zerodha.com/static/images/Hanan.jpg" alt="hanan" />
+        <SimageDiv>
+          <Simage
+            src="https://zerodha.com/static/images/Hanan.jpg"
+            alt="hanan"
+          />
           <h3>Hanan Delvi</h3>
           <div>CCO</div>
-          <div>
-          </div>
+          <div></div>
         </SimageDiv>
 
-        <SimageDiv
-        >
-          <Simage src="https://zerodha.com/static/images/Seema.jpg" alt="Seema" />
+        <SimageDiv>
+          <Simage
+            src="https://zerodha.com/static/images/Seema.jpg"
+            alt="Seema"
+          />
           <h3>Seema Patil</h3>
           <div>CQO</div>
-          <div>
-            
-          </div>
+          <div></div>
         </SimageDiv>
 
-        <SimageDiv
-        >
-          <Simage src="https://zerodha.com/static/images/karthik.jpg" alt="karthik" />
+        <SimageDiv>
+          <Simage
+            src="https://zerodha.com/static/images/karthik.jpg"
+            alt="karthik"
+          />
           <h3>Karthik Rangappa</h3>
           <div>Chief of Education</div>
-          <div>
-          </div>
+          <div></div>
         </SimageDiv>
-        <SimageDiv style={{marginLeft:"30px"}}
-        >
-          <Simage src="https://zerodha.com/static/images/Austin.jpg" alt="Austin" />
+        <SimageDiv style={{ marginLeft: '30px' }}>
+          <Simage
+            src="https://zerodha.com/static/images/Austin.jpg"
+            alt="Austin"
+          />
           <h3>Austin Prakesh</h3>
           <div>{`Director Strategy`}</div>
-          <div>
-          </div>
+          <div></div>
         </SimageDiv>
-
-
       </Team>
-    </>
-
-
-);
+    </Box>
+  );
         };
 
         export default People;
