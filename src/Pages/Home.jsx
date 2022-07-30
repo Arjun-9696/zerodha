@@ -100,52 +100,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <div style={{ display: "flex" }}>
-        <div style={{ marginLeft: "140px" }}>
-          <img
-            src="https://zerodha.com/static/images/index-education.svg"
-            alt=""
-          />
-        </div>
-
-        <div>
-          <p className="home-heading" style={{ marginLeft: "60px" }}>
-            Free and open market education
-          </p>
-          <p className="home-content" style={{ marginLeft: "60px" }}>
-            Varsity, the largest online stock market education book in the world
-          </p>
-          <p className="home-content" style={{ lineHeight: "2px" }}>
-            covering everything from the basics to advanced trading.
-          </p>
-          <a
-            style={{ marginRight: "300px" }}
-            href="https://zerodha.com/varsity/"
-          >
-            Varsity {`->`}
-          </a>
-
-          <br />
-          <br />
-          <p className="home-content" style={{ marginLeft: "70px" }}>
-            TradingQ&A, the most active trading and investment community in
-          </p>
-          <p
-            className="home-content"
-            style={{ lineHeight: "2px", marginRight: "120px" }}
-          >
-            India for all your market related queries
-          </p>
-          <a style={{ marginRight: "250px" }} href="https://tradingqna.com/">
-            TrandingQ&A{`->`}
-          </a>
-        </div>
-      </div>
       <div className="top-div">
         <p className="home-heading">Open a Zerodha account</p>
         <p className="home-description">
